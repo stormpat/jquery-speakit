@@ -67,15 +67,13 @@ You can pause the current speech and resume it. The above callbacks
 are there to help.
 
 ```
-// Pause after 2 seconds
+// Pause after 1 second, continue after 2
 setTimeout(function() {
     speaker.pause();
-}, 2000);
-
-// Continue after 4 seconds
-setTimeout(function() {
-    speaker.resume();
-}, 4000);
+    setTimeout(function() {
+      speaker.resume();
+    }, 2000);
+}, 1000);
 ```
 
 ### Helpers
