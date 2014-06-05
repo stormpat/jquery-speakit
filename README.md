@@ -66,7 +66,7 @@ var speaker = $('#speak').speakIt({
 You can pause the current speech and resume it. The above callbacks
 are there to help.
 
-```
+```js
 // Pause after 1 second, continue after 2
 setTimeout(function() {
     speaker.pause();
@@ -80,7 +80,7 @@ setTimeout(function() {
 
 See the available languages on your system
 
-```
+```js
 $('#speak').speakIt({}).speak().voices(function(options) {
   console.log(options);
 });
