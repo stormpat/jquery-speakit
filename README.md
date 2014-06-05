@@ -36,6 +36,7 @@ var speaker = $('#speak').speakIt({
   voiceURI = 'native',
   lang = "set-language", // See below for valid lang options
 
+  // Events triggered
   onstart: function(speech) {
     // handle callback
   },
