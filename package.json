@@ -1,0 +1,19 @@
+{
+  "name": "jquery-speech.",
+  "version": "0.0.2",
+  "description": "A jQuery plugin wrapper for the Web Speech API.",
+  "keywords": [
+    "jquery",
+    "speech",
+    "web speech api"
+  ],
+  "author": "Patrik Storm <storm.patrik@gmail.com> (http://patrikstorm.com/)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.7.0",
+    "gulp-coffee": "^1.4.3",
+    "gulp-util": "^2.2.14"
+  }
+}
